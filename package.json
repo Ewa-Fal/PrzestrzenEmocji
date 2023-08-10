@@ -1,0 +1,28 @@
+{
+  "name": "przestrzen-emocji",
+  "version": "1.1.0",
+  "description": "",
+  "homepage": "https://Ewa-Fal.github.io/przestrzen-emocji/",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /przestrzen-emocji/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ewa-Fal/przestrzen-emocji"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/migace/parcel-project-template-pl-main/issues"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "posthtml-include": "^1.7.4"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  }
+}
