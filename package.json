@@ -2,14 +2,14 @@
   "name": "przestrzen-emocji",
   "version": "1.1.0",
   "description": "",
-  "homepage": "https://Ewa-Fal.github.io/przestrzen-emocji/",
+  "homepage": "https://ewa-fal.github.io/przestrzen-emocji/",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /przestrzen-emocji/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ewa-Fal/przestrzen-emocji"
+    "url": "git+https://github.com/ewa-fal/przestrzen-emocji"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
