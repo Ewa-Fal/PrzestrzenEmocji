@@ -6,23 +6,13 @@
       </svg>
     </button>
     <h3 class="form__title">Kontakt</h3>
-    <span class="form__text"
-      >If you have any additional questions or you want to clarify something before you make an
-      order please fill in your contact details. We will call you back.</span
-    >
+    <span class="form__text">Jeśli masz dodatkowe pytania lub chcesz coś wyjaśnić przed spotkaniem, podaj swoje dane
+      kontaktowe. Oddzwonimy do Ciebie.</span>
     <form name="modal-form" method="post" onsubmit="return false">
       <label class="form__label">
-        <span class="form__span">Name</span>
-        <input
-          class="form__input input__box"
-          type="text"
-          name="name"
-          placeholder="Name Surname"
-          autofocus
-          pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
-          title="Username must be two words separated by space."
-          required
-        />
+        <span class="form__span">Imię i nazwisko</span>
+        <input class="form__input input__box" type="text" name="name" placeholder="Imię i nazwisko" autofocus
+          pattern="^[a-zA-Z]+\s[a-zA-Z]+$" title="Username must be two words separated by space." required />
         <div class="input__state input__state--error">
           <svg width="20" height="20">
             <use href="./images/icons/icons.svg#icon-error-icon"></use>
@@ -36,15 +26,10 @@
       </label>
       <label class="form__label">
         <span class="form__span">Email</span>
-        <input
-          class="form__input input__box"
-          type="email"
-          name="email"
-          placeholder="email@example.com"
+        <input class="form__input input__box" type="email" name="email" placeholder="email@example.com"
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
           title="Email must contain at least three words spearated by @ first and by a comma next. Just like emails do. duh"
-          required
-        />
+          required />
         <div class="input__state input__state--error">
           <svg width="20" height="20">
             <use href="./images/icons/icons.svg#icon-error-icon"></use>
